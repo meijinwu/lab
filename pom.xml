@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.mofa</groupId>
+    <artifactId>lab</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging><!-- 父类型为pom，子类型为jar或者war -->
+
+    <modules>
+        <module>lab-oom</module>
+        <module>lab-redis</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencyManagement> <!-- 统一了 Maven 中依赖的版本号 -->
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>2.7.2</version>
+                <type>pom</type> <!-- 将所有的 jar 包打包成一个 pom，然后我们依赖了 pom，即可以下载下来所有依赖的 jar 包 -->
+                <scope>import</scope><!--用于一个 <dependencyManagement /> 对另一个 <dependencyManagement /> 的继承-->
+            </dependency>
+        </dependencies>
+   </dependencyManagement>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>
