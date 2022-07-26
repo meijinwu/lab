@@ -1,9 +1,0 @@
-
-E
-java:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¤‡Íï¢0
-i
-java:S1128"GRemove this unused import 'org.springframework.boot.SpringApplication'.(¯ìÙÿÿÿÿÿ8öâÌï¢0
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›ÙÔ·øÿÿÿÿ8öâÌï¢0
-c
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¤‡Íï¢0
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(†‘ÁÊşÿÿÿÿ8öâÌï¢0
