@@ -1,4 +1,4 @@
-package com.mofa.labrocketmq;
+package com.mofa.rocketmq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

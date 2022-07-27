@@ -9,7 +9,7 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>lab-oom</artifactId>
+    <artifactId>lab-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>lab-oom</name>
     <description>Demo project for Spring Boot</description>
@@ -39,7 +39,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass> com.mofa.laboom.LabOomApplication</mainClass>
+                        <mainClass>com.mofa.oom.LabOomApplication</mainClass>
                     </configuration>
             </plugin>
         </plugins>

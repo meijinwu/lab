@@ -1,4 +1,4 @@
-package com.mofa.labredis;
+package com.mofa.redis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

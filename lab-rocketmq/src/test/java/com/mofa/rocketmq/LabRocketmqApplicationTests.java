@@ -1,4 +1,4 @@
-package com.mofa.labrocketmq;
+package com.mofa.rocketmq;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
