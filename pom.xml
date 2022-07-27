@@ -10,7 +10,7 @@
     <packaging>pom</packaging><!-- 父类型为pom，子类型为jar或者war -->
 
     <modules>
-        <module>lab-oom</module>
+        <module>lab-common</module>
         <module>lab-redis</module>
     </modules>
 

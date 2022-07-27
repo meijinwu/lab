@@ -11,7 +11,7 @@
 
     <artifactId>lab-common</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>lab-oom</name>
+    <name>lab-common</name>
     <description>Demo project for Spring Boot</description>
 
     <dependencies>
@@ -39,7 +39,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                     <configuration>
-                        <mainClass>com.mofa.oom.LabOomApplication</mainClass>
+                        <mainClass>com.mofa.LabOomApplication</mainClass>
                     </configuration>
             </plugin>
         </plugins>

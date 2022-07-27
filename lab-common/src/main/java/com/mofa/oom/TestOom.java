@@ -1,18 +1,12 @@
 package com.mofa.oom;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
-@SpringBootApplication
-public class LabOomApplication {
-
-    public static void main(String[] args) throws InterruptedException {
-
-//启动10个线程
+public class TestOom {
+    public void testOom() throws InterruptedException {
         IntStream.rangeClosed(1, 10).mapToObj(i -> new Thread(() -> {
             while (true) {
                 //每一个线程都是一个死循环，休眠10秒，打印10M数据
@@ -31,5 +25,4 @@ public class LabOomApplication {
 
         TimeUnit.HOURS.sleep(1);
     }
-
 }
