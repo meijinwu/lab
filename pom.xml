@@ -12,6 +12,10 @@
     <modules>
         <module>lab-common</module>
         <module>lab-redis</module>
+        <module>lab-huawei-od</module>
+        <module>job</module>
+        <module>jpa</module>
+        <module>lab-kafka-native</module>
     </modules>
 
     <properties>
